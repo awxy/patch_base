@@ -1,15 +1,6 @@
 plugins {
-    id 'com.android.library'
-//    id 'maven-publish'
+    id 'com.android.application'
 }
-//repositories {
-//    mavenCentral()
-//    google()
-//    jcenter()
-//    maven { url "https://jitpack.io" }
-//}
-//group = 'com.github.awxy'
-//version = '1.0.8'
 
 android {
     compileSdkVersion 30
@@ -40,16 +31,3 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
 }
 
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            // Creates a Maven publication called "release".
-//            release(MavenPublication) {
-//                from components.release
-//                groupId = 'com.github.awxy'
-//                artifactId = 'patch_base'
-//                version = '1.0.7'
-//            }
-//        }
-//    }
-//}

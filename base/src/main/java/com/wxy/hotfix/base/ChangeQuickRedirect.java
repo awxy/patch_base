@@ -1,4 +1,4 @@
-package com.wxy.hotfix;
+package com.wxy.hotfix.base;
 
 /**
  * <pre>
