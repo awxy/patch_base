@@ -9,7 +9,6 @@ package com.wxy.hotfix.base;
  *     version: 1.0
  * </pre>
  */
-interface ChangeQuickRedirect {
+public interface ChangeQuickRedirect {
     void invoke();
-
 }
