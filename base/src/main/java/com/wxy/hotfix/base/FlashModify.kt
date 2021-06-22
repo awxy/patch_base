@@ -11,4 +11,4 @@ package com.wxy.hotfix.base
  */
 @Target(AnnotationTarget.FUNCTION)
 @Retention()
-annotation class Modify()
+annotation class FlashModify()
