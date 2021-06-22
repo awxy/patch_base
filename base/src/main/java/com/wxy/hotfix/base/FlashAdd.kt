@@ -9,6 +9,6 @@ package com.wxy.hotfix.base
  *     version: 1.0
  * </pre>
  */
-@Target(AnnotationTarget.FUNCTION)
+@Target(AnnotationTarget.CLASS)
 @Retention()
 annotation class FlashAdd()
